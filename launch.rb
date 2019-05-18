@@ -62,5 +62,24 @@ sleep(1)
 puts("...")
 sleep(1)
 puts("...")
-puts("end input stream..thank you for coding in Ruby ")
+#puts("end input stream..thank you for coding in Ruby ")
+
+puts("aki give me your age.. ")
+aikAge = gets.chop
+sleep(1)
+puts("aki give me your name.. ")
+aikName = gets.chop
+sleep(1)
+puts("aki give your number.. ")
+aikNumber = gets.chop
+
+
+aikey = Person.new(aikAge, aikName, aikNumber)
+
+puts("here is your new person..")
+sleep(1)
+
+aikey.showDetails
+
+
 
