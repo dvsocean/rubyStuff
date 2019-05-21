@@ -5,7 +5,7 @@ require_relative "objects/speech"
 personOne = Person.new("33", "Danill Okeanovich II", "4243327003")
 speechOne = Speech.new("translate")
 
-puts("FROM SPECCH OBJ --> " + speechOne.getWord.to_s)
+puts("FROM SPEeCH OBJ --> " + speechOne.getWord.to_s)
 
 programName = "RubyInterpreter"
 puts("my name is " + programName)
@@ -39,7 +39,7 @@ elsif userInput == "programmer details"
 	puts("...")
 	personOne.showDetails
 else
-	puts("no active input given")	
+	puts("no active input given")
 end
 
 puts("...")
@@ -90,6 +90,3 @@ puts("here is your new person --> ")
 personTwo = Person.new(aikAge, aikName, aikNumber)
 personTwo.showDetails
 puts("and here is the action the person can perform --> " + personTwo.getAction)
-
-
-
