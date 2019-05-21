@@ -22,4 +22,10 @@ carOne.getItems
 
 #Class method call from with a module
 puts("---------------CALL TO CLASS METHOD WITHIN AN INSTANCE MODULE--------------")
+
+=begin
+The class method can only be called by the object Ball(class) whereas the
+instance method can only be called by the objects of Ball.
+=end
+
 puts Car::Technology.getModArray
