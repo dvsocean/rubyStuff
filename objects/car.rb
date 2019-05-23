@@ -1,6 +1,6 @@
 class Car
 
-attr_accessor :color, :engine, :wheels
+attr_accessor :color, :engine, :wheels, :inSquared
 #attr_writer :color, :engine, :wheels
 #attr_reader :color, :engine, :wheels
 @@items = [3, "findLast", 6654, "Unsainted"]
@@ -11,6 +11,10 @@ attr_accessor :color, :engine, :wheels
   #   @engine = engine
   #   @wheels = wheels
   # end
+
+  def setTrunkSpace(inSquared)
+    @inSquared = inSquared
+  end
 
   def getItems()
     puts "This is a call to an instance method"

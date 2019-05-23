@@ -29,3 +29,7 @@ instance method can only be called by the objects of Ball.
 =end
 
 puts Car::Technology.getModArray
+
+carOne.setTrunkSpace("Truck space is set to 45 insq")
+
+puts carOne.inSquared
