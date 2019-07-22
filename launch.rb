@@ -2,10 +2,13 @@
 require_relative "person"
 require_relative "objects/speech"
 
+
 personOne = Person.new("33", "Danill Okeanovich II", "4243327003")
 speechOne = Speech.new("translate")
 
 puts("FROM SPEeCH OBJ --> " + speechOne.getWord.to_s)
+
+name = FFaker::Name.name
 
 programName = "RubyInterpreter"
 puts("my name is " + programName)
