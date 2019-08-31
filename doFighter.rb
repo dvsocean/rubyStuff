@@ -1,5 +1,5 @@
 require_relative"objects/fighter"
-require_relative"action"
+require_relative "objects/action"
 
 fighter = Action.new
 

@@ -35,5 +35,5 @@ class Action
 				#code after the exception doesnt execute
 		    puts 'I am after the raise.'
 		end
-
+end
 end

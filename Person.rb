@@ -1,4 +1,4 @@
-require_relative "action"
+require_relative "objects/action"
 
 class Person < Action
 
