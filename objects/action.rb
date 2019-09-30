@@ -1,39 +1,13 @@
 class Action
 
-	@@action_name = "I did something illegal.. "
+	attr_accessor :color, :verb
 
-	GLOBAL_COUNT = 50
-
-	module MegaTron
-		COUNT = 1000
+	def set_color_with_action(color)
+		@color = color
+		puts"DEBUG ACTION w COLOR --> HAVENT DECIDED YET"
 	end
 
-	def getAction()
-		return @@action_name
+	def deposit_money(amount)
+		puts"YOUR ACCOUNT NOW HAS --> " + amount.to_s
 	end
-
-	def getFighter()
-		Fighter.new("Ali", 33, "1719 Water St")
-	end
-
-#exceptions with rescue block
-	def funcRaise
-	  begin
-	    #puts 'I am before the raise.'
-	    raise 'An error has occured.'
-	    puts 'I am after the raise.'
-	  rescue
-	    puts 'I am rescued.'
-	  #end
-	  #puts 'I am after the begin block.'
-	end
-
-	#exceptions without rescue block
-		def funcRaiseWithoutRescue
-		    puts 'I am before the raise.'
-		    raise 'Danika error has occured.'
-				#code after the exception doesnt execute
-		    puts 'I am after the raise.'
-		end
-end
 end
