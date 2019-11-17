@@ -1,7 +1,7 @@
 #second launch
 #require_relative "person"
 #require_relative "objects/speech"
-require_relative "objects/manager"
+require_relative "objects/ts/manager"
 
 
 # personOne = Person.new("33", "Danill Okeanovich II", "4243327003")

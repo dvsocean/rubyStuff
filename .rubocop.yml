@@ -40,9 +40,9 @@ Style/GuardClause:
   MinBodyLength: 3
 Style/IfUnlessModifier:
   Enabled: true
-Layout/IndentArray:
+Layout/IndentFirstArrayElement:
   EnforcedStyle: consistent
-Layout/IndentHash:
+Layout/IndentFirstHashElement:
   EnforcedStyle: consistent
 Style/LambdaCall:
   Enabled: true
@@ -242,8 +242,6 @@ Layout/SpaceBeforeComment:
 Layout/SpaceBeforeSemicolon:
   Enabled: true
 Layout/SpaceAroundOperators:
-  Enabled: true
-Layout/SpaceAroundKeyword:
   Enabled: true
 Layout/SpaceInsideParens:
   Enabled: true

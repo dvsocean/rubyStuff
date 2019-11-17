@@ -1,4 +1,4 @@
-require_relative"objects/empty"
+require_relative "objects/ts/Empty"
 require_relative"objects/item"
 
 numbers = [9, 8, 7, 6, 5, 4]
