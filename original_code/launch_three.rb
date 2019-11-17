@@ -1,4 +1,4 @@
-require_relative"objects/car"
+require_relative "objects/ts/car"
 require_relative"objects/rocket"
 
 puts("----------------LAUNCH THREE----------------")

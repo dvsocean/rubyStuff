@@ -100,3 +100,10 @@ manager = Manager.new
 manager.access_car.custom('take a right turn')
 manager.access_car.start_engine
 manager.access_action.deposit_money(1500)
+
+str_one = 'FinancialTransaction'
+
+returned = str_one.split(/([[:upper:]][[:lower:]]*)/).delete_if(&:empty?).join("-")
+downc = returned.downcase
+
+puts"DEBUG --> " + downc.to_s
