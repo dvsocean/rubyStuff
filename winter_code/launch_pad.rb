@@ -62,8 +62,9 @@ def property_of_arr(arr, prop)
 end
 
 p property_of_arr(by_word, 'song')
-
-found_word = property_of_arr(by_word, 'song')
+by_word.each do |x|
+  property_of_arr(by_word, 'song').include?('song')
+end
 
 
 
